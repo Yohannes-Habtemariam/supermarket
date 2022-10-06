@@ -2,14 +2,13 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import "./Home.scss";
 import fishMeal1 from "../../assents/ready-fish-1.jpg";
-import fishMeal2 from "../../assents/ready-fish-2.jpg";
 
 const Home = () => {
   return (
     <main>
       <div className='left-navigation-images-container'>
         <nav className='vertical-navigation-bar'>
-            <h1>Categories</h1>
+            <h1> All Categories</h1>
             <u className='vertical-nav-menu'>
                 <li className='vertical-nav-item'> <NavLink to="/organicMeal"> Organic Meal </NavLink></li>
 
