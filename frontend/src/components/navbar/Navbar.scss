@@ -1,0 +1,38 @@
+@import "../../styles/Variables.scss";
+
+.header-container {
+    background-color: $header;
+}
+
+.navigation-bar {
+    
+    .language-registter-login {
+        height: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        margin-right: 2rem;
+
+        & h4 {
+            margin-left: 2rem;
+            color: red;
+        }
+    }
+
+    .logo-search-cart {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+    }
+
+    .nav-menu {
+        height: 3rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-weight: 700;
+        background-color: $nav-menu;
+    }
+}
